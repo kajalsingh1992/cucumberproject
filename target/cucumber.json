@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-10T19:07:31.715Z",
+        "line": 5,
+        "name": "Login scenario",
+        "description": "",
+        "id": "this-is-my-orange-hrm-website;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7977500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browserInitilized",
+            "match": {
+              "location": "com.stepsdefinations.LoginDefination.browser_initilized()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enterLoginDetails",
+            "match": {
+              "location": "com.stepsdefinations.LoginDefination.enter_login_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "loginVerified",
+            "match": {
+              "location": "com.stepsdefinations.LoginDefination.login_verified()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressiontest"
+          }
+        ]
+      }
+    ],
+    "name": "This is my Orange HRM Website",
+    "description": "  I want to use this template for my feature file",
+    "id": "this-is-my-orange-hrm-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/resources/featureloginpage.feature",
+    "tags": []
+  }
+]
